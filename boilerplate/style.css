@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* if flex box is column then align items pertains to aligning it horizontally */
+  justify-content: center;
+  height: 100vh; /*need to center the box*/
+  overflow: hidden;
+  margin: 0;
+}
